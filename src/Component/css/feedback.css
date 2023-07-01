@@ -1,0 +1,78 @@
+
+.fform-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    column-gap: 30px;
+}
+.fform{
+    position: absolute;
+    max-width: 430px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 6px;
+    background:#ecf3ef;
+}
+
+.fform-header{
+    font-size: 28px;
+    font-weight: 600;
+    color: #232836;
+    text-align: center;
+}
+.formm{
+    margin-top: 30px;
+}
+.formm .ffield{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+.ffield input,
+.ffield button,.ffield textarea{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 6px;
+}
+.ffield textarea{
+  outline: none;
+  padding: 0px 15px;
+
+  border: 1px solid#CACACA;
+}
+.ffield input{
+    outline: none;
+    padding: 0 15px;
+    border: 1px solid#CACACA;
+}
+.ffield input:focus{
+    border-bottom-width: 2px;
+}
+.ffield button{
+    color: #fff;
+    background-color: #4f53b9;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.ffield button:hover{
+    background-color:  #686bc4;
+}
+
+.fform a{
+    color:  #4f53b9;
+    text-decoration: none;
+}
+.fform-content a:hover{
+    text-decoration: underline;
+}
+
+
+

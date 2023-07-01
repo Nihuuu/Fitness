@@ -1,0 +1,38 @@
+
+.faq-id{
+    text-align:center;
+    height: 120vh;
+    width: 100%;
+    background-color:  #ffffff;
+
+}
+.faqquestions-container{
+    margin-bottom: 3em;
+    border:1px solid black;
+    border-radius: 10px;
+
+}
+
+.faqcontent-container{
+    background-color: #D6FAE7;
+    text-align: center;
+    margin-top: -1.1em;
+    
+
+}
+
+.faqs-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color:#ffffff;
+
+}
+.faq-header{
+    height: 20px;
+}
+.faq-para{
+    height: 70px;
+    background-color: #ffffff;
+}
+
